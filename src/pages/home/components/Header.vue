@@ -6,7 +6,7 @@
 		<div class="header-input">
 		<span class="iconfont">&#xe632;</span> 请输入你想去嗨皮的地方</div>
 		<div class="header-right">
-			城市
+			{{this.city}}
 			<span class="iconfont arrow-icon">&#xe64a;</span>
 		</div>
 	</div>
@@ -14,7 +14,10 @@
 
 <script>
 export default {
-	name:'HomeHeader'
+	name:'HomeHeader',
+	props:{
+		city:String
+	}
 }
 </script>
 
