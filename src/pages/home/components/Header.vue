@@ -7,7 +7,7 @@
 		<span class="iconfont">&#xe632;</span> 请输入你想去嗨皮的地方</div>
 		<router-link to='/city'>
 			<div class="header-right">
-				{{this.city}}
+				{{this.$store.state.city}}
 				<span class="iconfont arrow-icon">&#xe64a;</span>
 			</div>
 		</router-link>
@@ -49,7 +49,8 @@ export default {
 			border-radius:.1rem
 			color:#ccc
 		.header-right
-			width: 1.24rem
+			min-width: 1.04rem
+			padding:0 .1rem
 			float:right
 			text-align:center
 			color:#fff
