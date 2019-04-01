@@ -12,7 +12,7 @@ export default {
 
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl'
-@import '~styles/mixins.styl'
+
 	.search	
 		height :.72rem
 		background: $bgColor
