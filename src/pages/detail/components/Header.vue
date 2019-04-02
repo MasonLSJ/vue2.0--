@@ -13,7 +13,7 @@
 			v-show="!showAbs"
 			:style="opacityStyle"
 			>
-			<router-link to="/">
+			<router-link to="/" v-show="showIcon">
 				<div class="iconfont header-fixed-back">&#xe624;</div>
 			</router-link>	
 			景点详情
@@ -29,7 +29,8 @@ export default {
 			showAbs:true,
 			opacityStyle:{
 				opacity:0
-			}
+			},
+			showIcon:this.opacity
 		}
 	},
 	methods:{
@@ -74,6 +75,7 @@ export default {
 			font-size:.4rem
 	.header-fixed
 	 	position: fixed
+	 	z-index: 2
 	 	top:0
 	 	left:0
 	 	right:0
