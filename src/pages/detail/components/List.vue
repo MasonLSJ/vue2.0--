@@ -42,5 +42,6 @@ export default {
 		background-size: .4rem 3rem
 	.item-children
 		padding:0 .2rem
+		font-size:.2rem
 			
 </style>

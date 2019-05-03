@@ -19,7 +19,9 @@ export default {
 		return {
 			swiperOption:{
 				pagination: '.swiper-pagination',
-				loop:true
+				loop:true,
+				autoplay: 3000,
+				effect : 'fade'
 			}
 		}
 	},
