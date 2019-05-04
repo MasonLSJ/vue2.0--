@@ -20,6 +20,7 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+</hr>
 Vue：构建用户界面的 MVVM 框架，核心是响应的数据绑定和组系统件
 
 vue-router：为单页面应用提供的路由系统，项目上线前使用了路由懒加载技术，来异步加载路由优化性能
@@ -42,7 +43,4 @@ fastClick: 解决300毫秒点击事件延迟问题
 
 stylus-loader: 一像素边框问题
 
-作者：程序员同行者
-链接：https://www.jianshu.com/p/d928eb5a6b49
-来源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+
